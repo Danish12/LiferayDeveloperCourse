@@ -1,0 +1,3 @@
+Bundle-Name: my-service-wrapper
+Bundle-SymbolicName: my.service.wrapper
+Bundle-Version: 1.0.0

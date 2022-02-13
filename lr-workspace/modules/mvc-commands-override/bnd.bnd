@@ -1,0 +1,3 @@
+Bundle-Name: mvc-commands-override
+Bundle-SymbolicName: mvc.commands.override
+Bundle-Version: 1.0.0

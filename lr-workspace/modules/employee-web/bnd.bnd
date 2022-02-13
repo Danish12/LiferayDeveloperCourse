@@ -1,0 +1,4 @@
+Bundle-Name: employee-web
+Bundle-SymbolicName: com.lr.revisited
+Bundle-Version: 1.0.0
+Export-Package: com.lr.revisited.constants

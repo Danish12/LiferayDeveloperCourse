@@ -1,0 +1,12 @@
+Bundle-Name: custom-login-language
+Bundle-SymbolicName: custom.login.language
+Bundle-Version: 1.0.0
+Provide-Capability:\
+      liferay.resource.bundle;\
+              resource.bundle.base.name="content.Language",\
+      liferay.resource.bundle;\
+                       bundle.symbolic.name=com.liferay.login.web;\
+                       resource.bundle.aggregate:String="(bundle.symbolic.name=custom.login.language),(bundle.symbolic.name=com.liferay.login.web)";\
+                       resource.bundle.base.name="content.Language";\
+                       service.ranking:Long="2";\
+                       servlet.context.name=login-web
